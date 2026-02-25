@@ -18,6 +18,7 @@ body {
   margin-left: 40px;
   max-width: 100%;
   display: inline-block;
+  position: relative;
 }
 .tab.active {
   box-shadow: 0 0 4px #08f;
@@ -87,6 +88,8 @@ body {
 }
 .close {
   position: absolute;
+  left: 0;
+  top: 0;
   display: inline-block;
   visibility: hidden;
   opacity: 0;
